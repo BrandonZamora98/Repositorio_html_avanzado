@@ -8,67 +8,84 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="contacto">
-        <a href="mailto:brandonalvazamora@gmail.com" target="_blank">
-            <img class="icon" src="/Portafolio/public/images/gmail.png" alt="">
-        </a>
-        <a href="https://www.linkedin.com/in/brandon-nicol%C3%A1s-calva-zamora-173636233/" target="_blank">
-            <img class="icon" src="/Portafolio/public/images/linkedin.png" alt="">
-        </a>
+
+    <div class="app" >
+        <div class="navbar">
+            <nav>
+                <div class="logo">
+                    Logo
+                </div>
+                <div class="links">
+                    <a href="">Tecnologías</a>
+                    <a href="#formulario">contacto</a>
+                    <a href="">Redes sociales</a>
+                </div>
+            </nav>
+        </div>
+        <div class="contacto">
+            <a href="mailto:brandonalvazamora@gmail.com" target="_blank">
+                <img class="icon" src="/Portafolio/public/images/gmail.png" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/brandon-nicol%C3%A1s-calva-zamora-173636233/" target="_blank">
+                <img class="icon" src="/Portafolio/public/images/linkedin.png" alt="">
+            </a>
+        </div>
+        <div class="table-tec">
+            <h3>Tecnologías</h3>
+            <table>
+                <thead>
+                    <th>Tecnoligía</th>
+                    <th>Conocimiento</th>
+                    <th>End</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>40%</td>
+                        <td>Front-end</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>100%</td>
+                        <td>Front-end</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>50%</td>
+                        <td>Front-end</td>
+                    </tr>
+                    <tr>
+                        <td>MySQL</td>
+                        <td>45%</td>
+                        <td>Back-end</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </div>
+        <br>
+        <div class="form-contact" id="formulario">
+            <form action="" class="formulario">
+
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+                <br>
+                <label for="mail">Correo</label>
+                <input type="email" id="mail">
+                <br>
+                <label for="edad">Edad</label>
+                <input type="number" min="18" max="100">
+                <br>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>     
     </div>
-
-    <h3>Tecnologías</h3>
-    <table>
-        <thead>
-            <th>Tecnoligía</th>
-            <th>Conocimiento</th>
-            <th>End</th>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>HTML</td>
-                <td>40%</td>
-                <td>Front-end</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>100%</td>
-                <td>Front-end</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>50%</td>
-                <td>Front-end</td>
-            </tr>
-            <tr>
-                <td>MySQL</td>
-                <td>45%</td>
-                <td>Back-end</td>
-            </tr>
-        </tbody>
-
-        <tfoot>
-
-        </tfoot>
-    </table>
-    <br>
-    
-    <form action="" class="formulario">
-
-        <label for="name">Nombre/Empresa</label>
-        <input type="text" id="name">
-        <br>
-        <label for="mail">Correo</label>
-        <input type="email" id="mail">
-        <br>
-        <label for="edad">Edad</label>
-        <input type="number" min="18" max="100">
-        <br>
-        <label for="mensaje">Mensaje</label>
-        <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-        <br>
-        <input type="submit" value="Enviar">
-    </form>
 </body>
 </html>
