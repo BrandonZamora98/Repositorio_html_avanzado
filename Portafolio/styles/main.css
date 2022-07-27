@@ -1,0 +1,24 @@
+.contacto{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+}
+.formulario{
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+table, th, td{
+    border: 1px solid gray;
+}
+
+tbody{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
