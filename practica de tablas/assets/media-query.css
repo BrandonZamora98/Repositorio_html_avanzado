@@ -1,0 +1,40 @@
+body{
+    color: red;
+
+}
+
+.title{
+    font-size: 6rem;
+}
+
+.subtile{
+    font-size: 4rem;
+}
+/*
+@media (max-height: 700px) {
+    body{
+        color: blue;
+    }
+}
+*/
+
+@media (orientation: landscape){
+    .title{
+        color: green;
+    }
+}
+@media (orientation: landscape) and (max-height: 500px ){
+    .subtile{
+        color: yellow
+    }
+    
+}
+
+/*
+@media (orientation: landscape)  and (max-height: 500px) {
+            .subtitle {
+                color: yellow;
+            }
+        }
+
+*/

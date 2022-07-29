@@ -4,16 +4,74 @@ body{
     background-color: #f5f7fb;
 }
 
-.app{
-    display: flex;
+.App{
+    /*display: flex;*/
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
 }
+
+*{
+    box-sizing: border-box;
+}
+/*
+nav{
+    position: sticky;
+    top: 0px; /*para no tener espacio y se mantenga 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2 rem;
+    background-color: #eaeaea;
+    transition: top 500ms ease-in-out;
+}
+*/
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background-color: #eaeaea;
+    transition: top 500ms ease-in-out;
+}
+
+.links{
+    display: flex;
+    margin: 0 -1em;
+}
+
+.logo{
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.links a{
+    display: inline-block;
+    margin: 0 1em;
+}
 label {
     margin: 10px;
 }
+/*
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase
+    letter-spacing: ;
+}
+*/
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+
 
 .icon{
     width: 18px;

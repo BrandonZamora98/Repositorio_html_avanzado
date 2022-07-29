@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; /*se envuelven los elementos */
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.flex-container div{
+    background-color: gainsboro;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
